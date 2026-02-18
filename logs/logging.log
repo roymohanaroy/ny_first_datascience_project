@@ -1,0 +1,429 @@
+[2026-02-17 16:22:25,482:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-17 16:22:25,487:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-17 16:28:29,976:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-17 16:28:30,002:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-17 16:28:30,010:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-17 16:28:30,015:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-17 16:28:30,022:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-17 16:28:30,643:INFO:datasciencelogger:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: A242:4483A:100357:137664:6994EB8E
+Accept-Ranges: bytes
+Date: Tue, 17 Feb 2026 22:28:30 GMT
+Via: 1.1 varnish
+X-Served-By: cache-dfw-kdal2120097-DFW
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1771367311.799957,VS0,VE129
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 21cd2b684dda451c35bc8954cad57548147e03b9
+Expires: Tue, 17 Feb 2026 22:33:30 GMT
+Source-Age: 0
+
+]
+[2026-02-18 12:05:32,567:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 12:05:32,569:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 12:05:32,572:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 12:05:32,573:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 12:05:32,574:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 12:05:32,575:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 12:05:32,575:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 16, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 16, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 12:16:36,153:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 12:16:36,154:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 12:16:36,159:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 12:16:36,160:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 12:16:36,161:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 12:16:36,162:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 12:16:36,163:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 16, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 16, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 12:23:01,303:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 12:23:01,304:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 12:23:01,307:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 12:23:01,309:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 12:23:01,309:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 12:23:01,310:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 12:23:01,310:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 16, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 16, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 12:25:33,742:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 12:25:33,743:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 12:25:33,747:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 12:25:33,748:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 12:25:33,749:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 12:25:33,750:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 12:25:33,750:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 16, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 17, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 13:57:10,450:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 13:57:10,450:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 13:57:10,453:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 13:57:10,454:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 13:57:10,455:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 13:57:10,455:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 13:57:10,456:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 16, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 18, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 13:59:11,491:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 13:59:11,492:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 13:59:11,496:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 13:59:11,497:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 13:59:11,498:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 13:59:11,499:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 13:59:11,500:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'config']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 14, in initiate_data_ingestion
+    data_ingestion_config = DataIngestion(config.get_data_ingestion_config)
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 12, in __init__
+    print(vars(self.config))
+               ^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'config'
+[2026-02-18 14:01:24,959:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:01:24,959:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:01:24,962:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:01:24,963:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:01:24,963:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:01:24,964:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:01:24,965:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 16, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 20, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 14:07:00,788:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:07:00,790:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:07:00,798:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:07:00,799:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:07:00,801:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:07:00,803:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:07:00,804:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 16, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 20, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 14:08:22,546:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:08:22,547:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:08:22,549:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:08:22,550:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:08:22,551:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:08:22,552:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:08:22,552:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 17, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 20, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 14:09:26,716:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:09:26,716:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:09:26,719:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:09:26,719:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:09:26,720:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:09:26,721:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:09:26,721:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 17, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 20, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 14:10:19,735:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:10:19,735:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:10:19,738:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:10:19,740:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:10:19,740:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:10:19,741:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:10:19,742:INFO:datasciencelogger:>>>>> config <src.datascience.config.configuration.ConfigurationManager object at 0x000002BC4497F770> tarted <<<<<]
+[2026-02-18 14:10:19,742:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 17, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 20, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 14:14:00,784:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:14:00,784:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:14:00,787:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:14:00,788:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:14:00,788:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:14:00,789:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:14:00,789:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 18, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 20, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 14:16:01,611:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:16:01,612:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:16:01,616:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:16:01,617:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:16:01,618:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:16:01,619:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:16:01,620:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 18, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 20, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 14:16:40,210:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:16:40,211:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:16:40,213:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:16:40,214:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:16:40,214:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:16:40,215:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:16:40,215:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 18, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 19, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 14:21:29,362:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:21:29,363:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:21:29,367:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:21:29,369:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:21:29,370:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:21:29,371:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:21:29,372:ERROR:datasciencelogger:'DataIngestionTrainingPipeline' object has no attribute 'config']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 11, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 16, in initiate_data_ingestion
+    print("config type:", type(self.config))
+                               ^^^^^^^^^^^
+AttributeError: 'DataIngestionTrainingPipeline' object has no attribute 'config'
+[2026-02-18 14:23:02,423:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:23:02,426:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:23:02,429:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:23:02,430:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:23:02,431:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:23:02,431:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:23:02,432:ERROR:datasciencelogger:'DataIngestionTrainingPipeline' object has no attribute 'config']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 12, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 16, in initiate_data_ingestion
+    print("config type:", type(self.config))
+                               ^^^^^^^^^^^
+AttributeError: 'DataIngestionTrainingPipeline' object has no attribute 'config'
+[2026-02-18 14:23:56,037:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:23:56,038:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:23:56,040:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:23:56,041:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:23:56,041:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:23:56,042:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:23:56,042:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 12, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 17, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 18, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 14:24:38,566:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:24:38,567:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:24:38,571:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:24:38,573:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:24:38,574:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:24:38,575:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:24:38,576:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 12, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 17, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 18, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 14:25:03,813:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:25:03,814:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:25:03,819:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:25:03,821:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:25:03,822:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:25:03,823:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:25:03,824:ERROR:datasciencelogger:'DataIngestion' object has no attribute 'local_data_file']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 12, in <module>
+    data_ingestion.initiate_data_ingestion()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_ingestion_pipeline.py", line 17, in initiate_data_ingestion
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_ingestion.py", line 18, in download_file
+    if not os.path.exists(self.config.local_data_file):
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestion' object has no attribute 'local_data_file'
+[2026-02-18 14:29:53,340:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:29:53,341:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:29:53,343:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:29:53,344:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:29:53,345:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:29:53,346:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:29:53,346:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-18 14:29:53,350:INFO:datasciencelogger:File already exists]
+[2026-02-18 14:29:53,375:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-18 14:31:55,285:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:31:55,286:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:31:55,289:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:31:55,293:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:31:55,294:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:31:55,294:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:31:55,296:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-18 14:31:55,833:INFO:datasciencelogger:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EF5E:28BE8C:131DE2:167498:699621B6
+Accept-Ranges: bytes
+Date: Wed, 18 Feb 2026 20:31:55 GMT
+Via: 1.1 varnish
+X-Served-By: cache-dfw-kdal2120040-DFW
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1771446716.627012,VS0,VE98
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c1fa86ae85f6c0ac34064ebe546204a28dde951f
+Expires: Wed, 18 Feb 2026 20:36:55 GMT
+Source-Age: 0
+
+]
+[2026-02-18 14:31:55,880:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-18 14:32:27,958:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-18 14:32:27,959:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-18 14:32:27,962:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 14:32:27,963:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 14:32:27,964:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 14:32:27,966:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 14:32:27,967:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-18 14:32:27,969:INFO:datasciencelogger:File already exists]
+[2026-02-18 14:32:27,974:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
