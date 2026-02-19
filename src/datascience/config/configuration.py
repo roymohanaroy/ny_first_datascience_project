@@ -1,16 +1,15 @@
 from src.datascience.constants import *
 from src.datascience.utils.common import read_yaml, create_directories
-
 from src.datascience.entity.config_entity import (DataIngestionConfig)
+from src.datascience.entity.config_entity import (DataValidationConfig)
 
 class ConfigurationManager:
     def __init__(self,
-                 config_filepath=CONFIG_FILE_PATH,
+                 config_filepath = CONFIG_FILE_PATH,
                  params_filepath = PARAMS_FILE_PATH,
                  schema_filepath = SCHEMA_FILE_PATH):
         
         
-        print(CONFIG_FILE_PATH)
         self.config=read_yaml(config_filepath)
         self.params=read_yaml(params_filepath)
         self.schema=read_yaml(schema_filepath)
@@ -20,8 +19,6 @@ class ConfigurationManager:
 
     def get_data_ingestion_config(self)-> DataIngestionConfig:
         config=self.config.data_ingestion
-        print("--------")
-        print("vars(self.config)")
         create_directories([config.root_dir])
 
         data_ingestion_config=DataIngestionConfig(
@@ -31,6 +28,18 @@ class ConfigurationManager:
             unzip_dir=config.unzip_dir
 
         )
-        print("**************")
-        print(data_ingestion_config)
         return data_ingestion_config
+    
+    def get_data_validation_config(self)-> DataValidationConfig:
+        config=self.config.data_validation
+        create_directories([Path(config.root_dir)])
+        schema = self.schema.COLUMNS
+
+        data_validation_config=DataValidationConfig(
+            root_dir=config.root_dir,
+            STATUS_FILE=config.STATUS_FILE,
+            unzip_data_dir=config.unzip_data_dir,
+            all_schema=schema
+
+        )
+        return data_validation_config

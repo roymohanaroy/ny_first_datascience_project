@@ -427,3 +427,120 @@ x===========x]
 [2026-02-18 14:32:27,974:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
 
 x===========x]
+[2026-02-18 16:22:56,867:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 16:22:56,894:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 16:22:56,929:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 16:22:56,936:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 16:22:56,941:INFO:datasciencelogger:created directory at: artifacts/data_validation]
+[2026-02-18 16:24:48,764:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 16:24:48,768:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 16:24:48,772:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 16:24:48,776:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 16:24:48,778:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-18 16:26:32,494:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 16:26:32,497:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 16:26:32,502:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 16:26:32,506:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 16:26:32,509:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-18 16:42:58,774:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 16:42:58,777:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 16:42:58,782:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 16:42:58,784:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 16:42:58,788:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-18 16:44:53,926:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 16:44:53,929:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 16:44:53,932:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 16:44:53,935:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 16:48:35,319:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 16:48:35,323:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 16:48:35,326:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 16:48:35,329:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-18 16:50:17,327:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-18 16:50:17,329:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-18 16:50:17,332:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-18 16:50:17,334:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-19 13:12:19,538:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-19 13:12:19,541:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-19 13:12:19,561:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-19 13:12:19,584:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-19 13:12:19,611:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-19 13:12:19,613:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-19 13:12:19,614:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-19 13:12:19,615:INFO:datasciencelogger:File already exists]
+[2026-02-19 13:12:19,643:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-19 13:12:19,643:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-19 13:12:19,646:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-19 13:12:19,647:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-19 13:12:19,648:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-19 13:12:19,649:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-19 13:12:19,694:ERROR:datasciencelogger:[Errno 2] No such file or directory: 'artifacts/data_validation/status.txt']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 27, in <module>
+    data_validation.initiate_data_validation()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_validation_pipeline.py", line 16, in initiate_data_validation
+    data_validation.validate_all_columns()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_validation.py", line 32, in validate_all_columns
+    raise e
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_validation.py", line 26, in validate_all_columns
+    with open(self.config.STATUS_FILE, 'w') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_validation/status.txt'
+[2026-02-19 13:29:39,702:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-19 13:29:39,706:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-19 13:29:39,710:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-19 13:29:39,714:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-19 13:49:04,650:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-19 13:49:04,655:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-19 13:49:04,662:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-19 13:49:04,665:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-19 13:49:04,667:INFO:datasciencelogger:created directory at: artifacts/data_validation]
+[2026-02-19 14:00:10,331:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-19 14:00:10,331:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-19 14:00:10,333:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-19 14:00:10,334:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-19 14:00:10,336:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-19 14:00:10,336:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-19 14:00:10,337:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-19 14:00:10,337:INFO:datasciencelogger:File already exists]
+[2026-02-19 14:00:10,341:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-19 14:00:10,341:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-19 14:00:10,343:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-19 14:00:10,344:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-19 14:00:10,345:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-19 14:00:10,345:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-19 14:00:10,384:ERROR:datasciencelogger:[Errno 2] No such file or directory: 'artifacts/data_validation/status.txt']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 27, in <module>
+    data_validation.initiate_data_validation()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\data_validation_pipeline.py", line 15, in initiate_data_validation
+    data_validation.validate_all_columns()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_validation.py", line 32, in validate_all_columns
+    raise e
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\data_validation.py", line 26, in validate_all_columns
+    with open(self.config.STATUS_FILE, 'w') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_validation/status.txt'
+[2026-02-19 14:04:22,684:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-19 14:04:22,685:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-19 14:04:22,688:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-19 14:04:22,689:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-19 14:04:22,691:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-19 14:04:22,693:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-19 14:04:22,693:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-19 14:04:22,694:INFO:datasciencelogger:File already exists]
+[2026-02-19 14:04:22,699:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-19 14:04:22,700:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-19 14:04:22,702:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-19 14:04:22,703:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-19 14:04:22,709:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-19 14:04:22,711:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-19 14:04:22,713:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-19 14:04:22,753:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
