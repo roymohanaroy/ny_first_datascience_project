@@ -701,3 +701,1400 @@ x===========x]
 [2026-02-19 15:08:44,002:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
 
 x===========x]
+[2026-02-19 16:33:41,046:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-19 16:33:41,051:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-19 16:33:41,056:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-19 16:33:41,060:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-19 16:34:33,875:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-19 16:34:33,880:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-19 16:34:33,885:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-19 16:34:33,888:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-19 16:44:24,418:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-19 16:44:24,422:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-19 16:44:24,427:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-19 16:44:24,429:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-19 16:48:28,500:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-19 16:48:28,503:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-19 16:48:28,507:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-19 16:48:28,510:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-19 16:48:28,513:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 11:46:57,195:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-20 11:46:57,196:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-20 11:46:57,231:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 11:46:57,233:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 11:46:57,263:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 11:46:57,265:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 11:46:57,266:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-20 11:46:57,267:INFO:datasciencelogger:File already exists]
+[2026-02-20 11:46:57,317:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-20 11:46:57,318:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-20 11:46:57,322:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 11:46:57,323:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 11:46:57,326:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 11:46:57,327:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 11:46:57,328:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-20 11:46:57,378:INFO:datasciencelogger:>>>>> stage Data Validation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 11:46:57,378:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 11:46:57,382:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 11:46:57,383:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 11:46:57,385:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 11:46:57,387:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 11:46:57,387:INFO:datasciencelogger:created directory at: artifacts/data_transformation]
+[2026-02-20 11:46:57,420:INFO:datasciencelogger:Splited data into training and test sets]
+[2026-02-20 11:46:57,420:INFO:datasciencelogger:(1199, 12)]
+[2026-02-20 11:46:57,420:INFO:datasciencelogger:(400, 12)]
+[2026-02-20 11:46:57,421:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 11:46:57,422:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 11:46:57,426:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 11:46:57,427:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 11:46:57,429:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 11:46:57,430:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 11:46:57,431:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 11:46:57,522:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 13:20:59,011:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 13:20:59,019:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 13:20:59,025:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 13:20:59,029:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 13:20:59,034:INFO:datasciencelogger:created directory at: artifacts/model_evaluation]
+[2026-02-20 13:21:00,965:INFO:datasciencelogger:json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-20 13:33:54,099:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 13:33:54,102:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 13:33:54,106:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 13:33:54,109:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 13:33:54,111:INFO:datasciencelogger:created directory at: artifacts/model_evaluation]
+[2026-02-20 13:33:54,575:INFO:datasciencelogger:json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-20 14:00:04,338:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-20 14:00:04,338:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-20 14:00:04,340:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:00:04,341:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:00:04,342:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:00:04,342:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:00:04,343:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-20 14:00:04,343:INFO:datasciencelogger:File already exists]
+[2026-02-20 14:00:04,349:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-20 14:00:04,349:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-20 14:00:04,351:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:00:04,352:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:00:04,353:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:00:04,354:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:00:04,354:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-20 14:00:04,408:INFO:datasciencelogger:>>>>> stage Data Validation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:00:04,409:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 14:00:04,412:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:00:04,413:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:00:04,416:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:00:04,417:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:00:04,418:INFO:datasciencelogger:created directory at: artifacts/data_transformation]
+[2026-02-20 14:00:04,461:INFO:datasciencelogger:Splited data into training and test sets]
+[2026-02-20 14:00:04,461:INFO:datasciencelogger:(1199, 12)]
+[2026-02-20 14:00:04,462:INFO:datasciencelogger:(400, 12)]
+[2026-02-20 14:00:04,462:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:00:04,463:INFO:datasciencelogger:>>>>> stage Model Training Stage started <<<<<]
+[2026-02-20 14:00:04,467:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:00:04,468:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:00:04,471:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:00:04,474:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:00:04,475:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 14:00:04,569:INFO:datasciencelogger:>>>>> stage Model Training Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:00:04,569:INFO:datasciencelogger:>>>>> stage Model Evaluation Stage started <<<<<]
+[2026-02-20 14:00:04,569:ERROR:datasciencelogger:'ModelEvaluationPipeline' object has no attribute 'initiate_data_transformation']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 63, in <module>
+    model_evaluation.initiate_data_transformation()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ModelEvaluationPipeline' object has no attribute 'initiate_data_transformation'
+[2026-02-20 14:00:22,721:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-20 14:00:22,722:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-20 14:00:22,724:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:00:22,725:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:00:22,726:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:00:22,727:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:00:22,728:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-20 14:00:22,728:INFO:datasciencelogger:File already exists]
+[2026-02-20 14:00:22,733:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-20 14:00:22,733:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-20 14:00:22,736:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:00:22,737:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:00:22,739:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:00:22,740:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:00:22,740:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-20 14:00:22,783:INFO:datasciencelogger:>>>>> stage Data Validation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:00:22,784:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 14:00:22,786:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:00:22,787:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:00:22,788:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:00:22,788:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:00:22,789:INFO:datasciencelogger:created directory at: artifacts/data_transformation]
+[2026-02-20 14:00:22,807:INFO:datasciencelogger:Splited data into training and test sets]
+[2026-02-20 14:00:22,807:INFO:datasciencelogger:(1199, 12)]
+[2026-02-20 14:00:22,807:INFO:datasciencelogger:(400, 12)]
+[2026-02-20 14:00:22,807:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:00:22,808:INFO:datasciencelogger:>>>>> stage Model Training Stage started <<<<<]
+[2026-02-20 14:00:22,810:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:00:22,811:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:00:22,812:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:00:22,813:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:00:22,813:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 14:00:22,887:INFO:datasciencelogger:>>>>> stage Model Training Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:00:22,887:INFO:datasciencelogger:>>>>> stage Model Evaluation Stage started <<<<<]
+[2026-02-20 14:00:22,890:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:00:22,891:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:00:22,893:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:00:22,894:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:00:22,895:INFO:datasciencelogger:created directory at: artifacts/model_evaluation]
+[2026-02-20 14:00:27,204:INFO:datasciencelogger:json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-20 14:00:33,335:ERROR:datasciencelogger:API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 63, in <module>
+    model_evaluation.initiate_model_evaluation()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\model_evaluation.py", line 60, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\sklearn\__init__.py", line 466, in log_model
+    return Model.log(
+           ^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\models\model.py", line 1357, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 167, in _register_model
+    raise e
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 156, in _register_model
+    create_model_response = client.create_registered_model(name)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\client.py", line 3880, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\client.py", line 96, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 110, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 596, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 321, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2026-02-20 14:03:12,855:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-20 14:03:12,855:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-20 14:03:12,857:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:03:12,858:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:03:12,859:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:03:12,860:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:03:12,860:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-20 14:03:12,860:INFO:datasciencelogger:File already exists]
+[2026-02-20 14:03:12,862:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-20 14:03:12,863:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-20 14:03:12,864:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:03:12,865:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:03:12,866:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:03:12,867:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:03:12,867:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-20 14:03:12,908:INFO:datasciencelogger:>>>>> stage Data Validation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:03:12,909:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 14:03:12,911:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:03:12,913:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:03:12,915:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:03:12,916:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:03:12,917:INFO:datasciencelogger:created directory at: artifacts/data_transformation]
+[2026-02-20 14:03:12,939:INFO:datasciencelogger:Splited data into training and test sets]
+[2026-02-20 14:03:12,939:INFO:datasciencelogger:(1199, 12)]
+[2026-02-20 14:03:12,939:INFO:datasciencelogger:(400, 12)]
+[2026-02-20 14:03:12,940:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:03:12,940:INFO:datasciencelogger:>>>>> stage Model Training Stage started <<<<<]
+[2026-02-20 14:03:12,942:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:03:12,944:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:03:12,946:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:03:12,947:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:03:12,948:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 14:03:13,032:INFO:datasciencelogger:>>>>> stage Model Training Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:03:13,032:INFO:datasciencelogger:>>>>> stage Model Evaluation Stage started <<<<<]
+[2026-02-20 14:03:13,035:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:03:13,036:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:03:13,039:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:03:13,040:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:03:13,041:INFO:datasciencelogger:created directory at: artifacts/model_evaluation]
+[2026-02-20 14:03:14,902:INFO:datasciencelogger:json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-20 14:03:21,303:ERROR:datasciencelogger:API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 63, in <module>
+    model_evaluation.initiate_model_evaluation()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\model_evaluation.py", line 60, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\sklearn\__init__.py", line 466, in log_model
+    return Model.log(
+           ^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\models\model.py", line 1357, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 167, in _register_model
+    raise e
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 156, in _register_model
+    create_model_response = client.create_registered_model(name)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\client.py", line 3880, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\client.py", line 96, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 110, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 596, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 321, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2026-02-20 14:05:28,042:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-20 14:05:28,042:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-20 14:05:28,046:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:05:28,048:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:05:28,050:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:05:28,051:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:05:28,052:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-20 14:05:28,053:INFO:datasciencelogger:File already exists]
+[2026-02-20 14:05:28,061:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-20 14:05:28,061:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-20 14:05:28,066:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:05:28,067:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:05:28,069:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:05:28,071:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:05:28,072:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-20 14:05:28,123:INFO:datasciencelogger:>>>>> stage Data Validation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:05:28,124:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 14:05:28,128:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:05:28,129:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:05:28,131:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:05:28,132:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:05:28,133:INFO:datasciencelogger:created directory at: artifacts/data_transformation]
+[2026-02-20 14:05:28,165:INFO:datasciencelogger:Splited data into training and test sets]
+[2026-02-20 14:05:28,165:INFO:datasciencelogger:(1199, 12)]
+[2026-02-20 14:05:28,166:INFO:datasciencelogger:(400, 12)]
+[2026-02-20 14:05:28,166:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:05:28,167:INFO:datasciencelogger:>>>>> stage Model Training Stage started <<<<<]
+[2026-02-20 14:05:28,170:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:05:28,171:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:05:28,174:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:05:28,175:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:05:28,176:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 14:05:28,256:INFO:datasciencelogger:>>>>> stage Model Training Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:05:28,257:INFO:datasciencelogger:>>>>> stage Model Evaluation Stage started <<<<<]
+[2026-02-20 14:05:28,260:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:05:28,261:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:05:28,264:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:05:28,265:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:05:28,265:INFO:datasciencelogger:created directory at: artifacts/model_evaluation]
+[2026-02-20 14:05:30,193:INFO:datasciencelogger:json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-20 14:05:37,581:ERROR:datasciencelogger:API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 63, in <module>
+    model_evaluation.initiate_model_evaluation()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\model_evaluation.py", line 60, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\sklearn\__init__.py", line 466, in log_model
+    return Model.log(
+           ^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\models\model.py", line 1357, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 167, in _register_model
+    raise e
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 156, in _register_model
+    create_model_response = client.create_registered_model(name)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\client.py", line 3880, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\client.py", line 96, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 110, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 596, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 321, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2026-02-20 14:10:23,923:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-20 14:10:23,924:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-20 14:10:23,926:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:10:23,927:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:10:23,928:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:10:23,928:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:10:23,929:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-20 14:10:23,929:INFO:datasciencelogger:File already exists]
+[2026-02-20 14:10:23,932:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-20 14:10:23,933:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-20 14:10:23,935:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:10:23,937:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:10:23,938:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:10:23,939:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:10:23,939:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-20 14:10:23,980:INFO:datasciencelogger:>>>>> stage Data Validation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:10:23,980:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 14:10:23,984:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:10:23,985:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:10:23,986:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:10:23,987:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:10:23,988:INFO:datasciencelogger:created directory at: artifacts/data_transformation]
+[2026-02-20 14:10:24,009:INFO:datasciencelogger:Splited data into training and test sets]
+[2026-02-20 14:10:24,010:INFO:datasciencelogger:(1199, 12)]
+[2026-02-20 14:10:24,010:INFO:datasciencelogger:(400, 12)]
+[2026-02-20 14:10:24,010:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:10:24,010:INFO:datasciencelogger:>>>>> stage Model Training Stage started <<<<<]
+[2026-02-20 14:10:24,012:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:10:24,013:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:10:24,015:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:10:24,016:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:10:24,016:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 14:10:24,097:INFO:datasciencelogger:>>>>> stage Model Training Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:10:24,097:INFO:datasciencelogger:>>>>> stage Model Evaluation Stage started <<<<<]
+[2026-02-20 14:10:24,100:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:10:24,102:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:10:24,104:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:10:24,105:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:10:24,106:INFO:datasciencelogger:created directory at: artifacts/model_evaluation]
+[2026-02-20 14:10:25,990:INFO:datasciencelogger:json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-20 14:10:26,053:INFO:datasciencelogger:>>>>> stage Model Evaluation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:11:51,885:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-20 14:11:51,885:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-20 14:11:51,889:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:11:51,890:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:11:51,893:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:11:51,894:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:11:51,895:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-20 14:11:51,896:INFO:datasciencelogger:File already exists]
+[2026-02-20 14:11:51,901:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-20 14:11:51,901:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-20 14:11:51,905:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:11:51,906:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:11:51,909:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:11:51,911:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:11:51,912:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-20 14:11:51,964:INFO:datasciencelogger:>>>>> stage Data Validation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:11:51,964:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 14:11:51,968:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:11:51,970:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:11:51,972:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:11:51,973:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:11:51,974:INFO:datasciencelogger:created directory at: artifacts/data_transformation]
+[2026-02-20 14:11:51,996:INFO:datasciencelogger:Splited data into training and test sets]
+[2026-02-20 14:11:51,997:INFO:datasciencelogger:(1199, 12)]
+[2026-02-20 14:11:51,997:INFO:datasciencelogger:(400, 12)]
+[2026-02-20 14:11:51,997:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:11:51,997:INFO:datasciencelogger:>>>>> stage Model Training Stage started <<<<<]
+[2026-02-20 14:11:51,999:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:11:52,000:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:11:52,001:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:11:52,002:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:11:52,002:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 14:11:52,109:INFO:datasciencelogger:>>>>> stage Model Training Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:11:52,110:INFO:datasciencelogger:>>>>> stage Model Evaluation Stage started <<<<<]
+[2026-02-20 14:11:52,114:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:11:52,115:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:11:52,118:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:11:52,119:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:11:52,120:INFO:datasciencelogger:created directory at: artifacts/model_evaluation]
+[2026-02-20 14:11:53,942:INFO:datasciencelogger:json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-20 14:12:00,049:ERROR:datasciencelogger:API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 63, in <module>
+    model_evaluation.initiate_model_evaluation()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\model_evaluation.py", line 61, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\sklearn\__init__.py", line 466, in log_model
+    return Model.log(
+           ^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\models\model.py", line 1357, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 167, in _register_model
+    raise e
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 156, in _register_model
+    create_model_response = client.create_registered_model(name)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\client.py", line 3880, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\client.py", line 96, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 110, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 596, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 321, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2026-02-20 14:20:23,054:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-20 14:20:23,055:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-20 14:20:23,057:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:20:23,058:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:20:23,059:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:20:23,059:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:20:23,060:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-20 14:20:23,060:INFO:datasciencelogger:File already exists]
+[2026-02-20 14:20:23,063:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-20 14:20:23,063:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-20 14:20:23,065:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:20:23,066:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:20:23,068:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:20:23,069:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:20:23,069:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-20 14:20:23,118:INFO:datasciencelogger:>>>>> stage Data Validation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:20:23,118:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 14:20:23,121:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:20:23,123:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:20:23,125:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:20:23,126:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:20:23,127:INFO:datasciencelogger:created directory at: artifacts/data_transformation]
+[2026-02-20 14:20:23,150:INFO:datasciencelogger:Splited data into training and test sets]
+[2026-02-20 14:20:23,150:INFO:datasciencelogger:(1199, 12)]
+[2026-02-20 14:20:23,150:INFO:datasciencelogger:(400, 12)]
+[2026-02-20 14:20:23,150:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:20:23,151:INFO:datasciencelogger:>>>>> stage Model Training Stage started <<<<<]
+[2026-02-20 14:20:23,152:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:20:23,153:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:20:23,154:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:20:23,155:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:20:23,155:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 14:20:23,240:INFO:datasciencelogger:>>>>> stage Model Training Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:20:23,241:INFO:datasciencelogger:>>>>> stage Model Evaluation Stage started <<<<<]
+[2026-02-20 14:20:23,244:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:20:23,245:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:20:23,248:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:20:23,249:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:20:23,250:INFO:datasciencelogger:created directory at: artifacts/model_evaluation]
+[2026-02-20 14:20:25,049:INFO:datasciencelogger:json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-20 14:20:31,338:ERROR:datasciencelogger:API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 63, in <module>
+    model_evaluation.initiate_model_evaluation()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\model_evaluation.py", line 61, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\sklearn\__init__.py", line 466, in log_model
+    return Model.log(
+           ^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\models\model.py", line 1357, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 167, in _register_model
+    raise e
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 156, in _register_model
+    create_model_response = client.create_registered_model(name)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\client.py", line 3880, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\client.py", line 96, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 110, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 596, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 321, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2026-02-20 14:22:09,871:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-20 14:22:09,872:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-20 14:22:09,874:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:22:09,874:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:22:09,876:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:22:09,876:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:22:09,877:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-20 14:22:09,877:INFO:datasciencelogger:File already exists]
+[2026-02-20 14:22:09,880:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-20 14:22:09,880:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-20 14:22:09,882:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:22:09,883:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:22:09,885:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:22:09,885:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:22:09,886:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-20 14:22:09,935:INFO:datasciencelogger:>>>>> stage Data Validation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:22:09,936:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 14:22:09,939:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:22:09,941:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:22:09,944:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:22:09,945:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:22:09,947:INFO:datasciencelogger:created directory at: artifacts/data_transformation]
+[2026-02-20 14:22:09,981:INFO:datasciencelogger:Splited data into training and test sets]
+[2026-02-20 14:22:09,981:INFO:datasciencelogger:(1199, 12)]
+[2026-02-20 14:22:09,981:INFO:datasciencelogger:(400, 12)]
+[2026-02-20 14:22:09,982:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:22:09,982:INFO:datasciencelogger:>>>>> stage Model Training Stage started <<<<<]
+[2026-02-20 14:22:09,984:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:22:09,985:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:22:09,986:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:22:09,987:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:22:09,987:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 14:22:10,074:INFO:datasciencelogger:>>>>> stage Model Training Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:22:10,075:INFO:datasciencelogger:>>>>> stage Model Evaluation Stage started <<<<<]
+[2026-02-20 14:22:10,078:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:22:10,080:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:22:10,083:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:22:10,084:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:22:10,085:INFO:datasciencelogger:created directory at: artifacts/model_evaluation]
+[2026-02-20 14:22:11,941:INFO:datasciencelogger:json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-20 14:22:18,193:ERROR:datasciencelogger:API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 63, in <module>
+    model_evaluation.initiate_model_evaluation()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\model_evaluation.py", line 61, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\sklearn\__init__.py", line 466, in log_model
+    return Model.log(
+           ^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\models\model.py", line 1357, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 167, in _register_model
+    raise e
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 156, in _register_model
+    create_model_response = client.create_registered_model(name)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\client.py", line 3880, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\client.py", line 96, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 110, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 596, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 321, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2026-02-20 14:23:10,728:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-20 14:23:10,729:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-20 14:23:10,732:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:23:10,733:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:23:10,735:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:23:10,736:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:23:10,736:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-20 14:23:10,737:INFO:datasciencelogger:File already exists]
+[2026-02-20 14:23:10,740:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-20 14:23:10,740:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-20 14:23:10,742:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:23:10,743:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:23:10,745:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:23:10,745:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:23:10,746:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-20 14:23:10,793:INFO:datasciencelogger:>>>>> stage Data Validation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:23:10,793:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 14:23:10,796:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:23:10,797:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:23:10,799:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:23:10,799:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:23:10,800:INFO:datasciencelogger:created directory at: artifacts/data_transformation]
+[2026-02-20 14:23:10,828:INFO:datasciencelogger:Splited data into training and test sets]
+[2026-02-20 14:23:10,828:INFO:datasciencelogger:(1199, 12)]
+[2026-02-20 14:23:10,829:INFO:datasciencelogger:(400, 12)]
+[2026-02-20 14:23:10,829:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:23:10,829:INFO:datasciencelogger:>>>>> stage Model Training Stage started <<<<<]
+[2026-02-20 14:23:10,832:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:23:10,833:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:23:10,834:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:23:10,835:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:23:10,835:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 14:23:10,930:INFO:datasciencelogger:>>>>> stage Model Training Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:23:10,931:INFO:datasciencelogger:>>>>> stage Model Evaluation Stage started <<<<<]
+[2026-02-20 14:23:10,935:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:23:10,937:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:23:10,940:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:23:10,942:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:23:10,943:INFO:datasciencelogger:created directory at: artifacts/model_evaluation]
+[2026-02-20 14:23:12,976:INFO:datasciencelogger:json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-20 14:23:19,222:ERROR:datasciencelogger:API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 63, in <module>
+    model_evaluation.initiate_model_evaluation()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\model_evaluation.py", line 60, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\sklearn\__init__.py", line 466, in log_model
+    return Model.log(
+           ^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\models\model.py", line 1357, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 167, in _register_model
+    raise e
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 156, in _register_model
+    create_model_response = client.create_registered_model(name)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\client.py", line 3880, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\client.py", line 96, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 110, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 596, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 321, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2026-02-20 14:23:31,159:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-20 14:23:31,159:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-20 14:23:31,161:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:23:31,162:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:23:31,163:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:23:31,164:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:23:31,165:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-20 14:23:31,165:INFO:datasciencelogger:File already exists]
+[2026-02-20 14:23:31,168:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-20 14:23:31,168:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-20 14:23:31,171:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:23:31,171:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:23:31,173:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:23:31,175:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:23:31,176:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-20 14:23:31,225:INFO:datasciencelogger:>>>>> stage Data Validation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:23:31,225:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 14:23:31,229:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:23:31,230:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:23:31,233:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:23:31,234:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:23:31,235:INFO:datasciencelogger:created directory at: artifacts/data_transformation]
+[2026-02-20 14:23:31,267:INFO:datasciencelogger:Splited data into training and test sets]
+[2026-02-20 14:23:31,267:INFO:datasciencelogger:(1199, 12)]
+[2026-02-20 14:23:31,268:INFO:datasciencelogger:(400, 12)]
+[2026-02-20 14:23:31,268:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:23:31,268:INFO:datasciencelogger:>>>>> stage Model Training Stage started <<<<<]
+[2026-02-20 14:23:31,271:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:23:31,273:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:23:31,275:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:23:31,276:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:23:31,277:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 14:23:31,360:INFO:datasciencelogger:>>>>> stage Model Training Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:23:31,360:INFO:datasciencelogger:>>>>> stage Model Evaluation Stage started <<<<<]
+[2026-02-20 14:23:31,364:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:23:31,365:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:23:31,367:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:23:31,368:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:23:31,369:INFO:datasciencelogger:created directory at: artifacts/model_evaluation]
+[2026-02-20 14:23:33,358:INFO:datasciencelogger:json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-20 14:23:39,239:ERROR:datasciencelogger:API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 63, in <module>
+    model_evaluation.initiate_model_evaluation()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\model_evaluation.py", line 60, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\sklearn\__init__.py", line 466, in log_model
+    return Model.log(
+           ^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\models\model.py", line 1357, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 167, in _register_model
+    raise e
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 156, in _register_model
+    create_model_response = client.create_registered_model(name)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\client.py", line 3880, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\client.py", line 96, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 110, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 596, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 321, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2026-02-20 14:40:35,439:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-20 14:40:35,439:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-20 14:40:35,442:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:40:35,443:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:40:35,444:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:40:35,445:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:40:35,445:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-20 14:40:35,445:INFO:datasciencelogger:File already exists]
+[2026-02-20 14:40:35,449:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-20 14:40:35,449:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-20 14:40:35,451:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:40:35,452:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:40:35,455:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:40:35,456:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:40:35,458:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-20 14:40:35,513:INFO:datasciencelogger:>>>>> stage Data Validation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:40:35,513:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 14:40:35,517:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:40:35,518:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:40:35,520:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:40:35,521:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:40:35,522:INFO:datasciencelogger:created directory at: artifacts/data_transformation]
+[2026-02-20 14:40:35,542:INFO:datasciencelogger:Splited data into training and test sets]
+[2026-02-20 14:40:35,542:INFO:datasciencelogger:(1199, 12)]
+[2026-02-20 14:40:35,542:INFO:datasciencelogger:(400, 12)]
+[2026-02-20 14:40:35,542:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:40:35,543:INFO:datasciencelogger:>>>>> stage Model Training Stage started <<<<<]
+[2026-02-20 14:40:35,544:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:40:35,545:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:40:35,546:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:40:35,547:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:40:35,547:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 14:40:35,634:INFO:datasciencelogger:>>>>> stage Model Training Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:40:35,635:INFO:datasciencelogger:>>>>> stage Model Evaluation Stage started <<<<<]
+[2026-02-20 14:40:35,638:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:40:35,639:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:40:35,641:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:40:35,642:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:40:35,643:INFO:datasciencelogger:created directory at: artifacts/model_evaluation]
+[2026-02-20 14:40:37,534:INFO:datasciencelogger:json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-20 14:40:44,489:ERROR:datasciencelogger:API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 63, in <module>
+    model_evaluation.initiate_model_evaluation()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\model_evaluation.py", line 60, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\sklearn\__init__.py", line 466, in log_model
+    return Model.log(
+           ^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\models\model.py", line 1357, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 167, in _register_model
+    raise e
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 156, in _register_model
+    create_model_response = client.create_registered_model(name)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\client.py", line 3880, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\tracking\_model_registry\client.py", line 96, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 110, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 596, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 321, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2026-02-20 14:46:42,666:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-20 14:46:42,667:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-20 14:46:42,671:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:46:42,673:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:46:42,675:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:46:42,677:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:46:42,677:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-20 14:46:42,678:INFO:datasciencelogger:File already exists]
+[2026-02-20 14:46:42,686:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-20 14:46:42,686:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-20 14:46:42,690:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:46:42,692:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:46:42,694:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:46:42,695:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:46:42,698:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-20 14:46:42,752:INFO:datasciencelogger:>>>>> stage Data Validation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:46:42,753:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 14:46:42,756:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:46:42,758:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:46:42,760:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:46:42,760:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:46:42,761:INFO:datasciencelogger:created directory at: artifacts/data_transformation]
+[2026-02-20 14:46:42,781:INFO:datasciencelogger:Splited data into training and test sets]
+[2026-02-20 14:46:42,781:INFO:datasciencelogger:(1199, 12)]
+[2026-02-20 14:46:42,781:INFO:datasciencelogger:(400, 12)]
+[2026-02-20 14:46:42,781:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:46:42,782:INFO:datasciencelogger:>>>>> stage Model Training Stage started <<<<<]
+[2026-02-20 14:46:42,783:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:46:42,784:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:46:42,786:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:46:42,786:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:46:42,787:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 14:46:42,873:INFO:datasciencelogger:>>>>> stage Model Training Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:46:42,873:INFO:datasciencelogger:>>>>> stage Model Evaluation Stage started <<<<<]
+[2026-02-20 14:46:42,876:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:46:42,878:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:46:42,880:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:46:42,881:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:46:42,882:INFO:datasciencelogger:created directory at: artifacts/model_evaluation]
+[2026-02-20 14:46:44,658:INFO:datasciencelogger:json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-20 14:52:03,450:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-20 14:52:03,452:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-20 14:52:03,457:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:52:03,458:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:52:03,461:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:52:03,462:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:52:03,463:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-20 14:52:04,111:INFO:datasciencelogger:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2170:24F9B6:17F374:1CCBA5:6998C973
+Accept-Ranges: bytes
+Date: Fri, 20 Feb 2026 20:52:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-dfw-kdal2120118-DFW
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1771620724.148583,VS0,VE181
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2dbe79a8f4f51c57230293d402d138c68d1d8bf4
+Expires: Fri, 20 Feb 2026 20:57:04 GMT
+Source-Age: 0
+
+]
+[2026-02-20 14:52:04,138:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-20 14:52:04,139:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-20 14:52:04,144:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:52:04,145:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:52:04,146:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:52:04,147:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:52:04,148:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-20 14:52:04,199:INFO:datasciencelogger:>>>>> stage Data Validation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:52:04,199:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 14:52:04,204:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:52:04,205:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:52:04,209:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:52:04,210:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:52:04,212:INFO:datasciencelogger:created directory at: artifacts/data_transformation]
+[2026-02-20 14:52:04,252:INFO:datasciencelogger:Splited data into training and test sets]
+[2026-02-20 14:52:04,252:INFO:datasciencelogger:(1199, 12)]
+[2026-02-20 14:52:04,253:INFO:datasciencelogger:(400, 12)]
+[2026-02-20 14:52:04,253:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:52:04,253:INFO:datasciencelogger:>>>>> stage Model Training Stage started <<<<<]
+[2026-02-20 14:52:04,256:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:52:04,257:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:52:04,259:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:52:04,260:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:52:04,261:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 14:52:04,351:INFO:datasciencelogger:>>>>> stage Model Training Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 14:52:04,351:INFO:datasciencelogger:>>>>> stage Model Evaluation Stage started <<<<<]
+[2026-02-20 14:52:04,355:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 14:52:04,357:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 14:52:04,360:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 14:52:04,361:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 14:52:04,363:INFO:datasciencelogger:created directory at: artifacts/model_evaluation]
+[2026-02-20 14:52:07,395:INFO:datasciencelogger:json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-20 14:56:25,857:ERROR:datasciencelogger:API request to https://dagshub.com/mohana.roy/ny_first_datascience_project.mlflow/api/2.0/mlflow/model-versions/create failed with exception HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /mohana.roy/ny_first_datascience_project.mlflow/api/2.0/mlflow/model-versions/create (Caused by ResponseError('too many 500 error responses'))]
+urllib3.exceptions.ResponseError: too many 500 error responses
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\urllib3\connectionpool.py", line 942, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\urllib3\connectionpool.py", line 942, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\urllib3\connectionpool.py", line 942, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 4 more times]
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\urllib3\connectionpool.py", line 932, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=self)
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /mohana.roy/ny_first_datascience_project.mlflow/api/2.0/mlflow/model-versions/create (Caused by ResponseError('too many 500 error responses'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\utils\rest_utils.py", line 236, in http_request
+    return _get_http_response_with_retries(
+        method,
+    ...<10 lines>...
+        **kwargs,
+    )
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\utils\request_utils.py", line 237, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\requests\adapters.py", line 668, in send
+    raise RetryError(e, request=request)
+requests.exceptions.RetryError: HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /mohana.roy/ny_first_datascience_project.mlflow/api/2.0/mlflow/model-versions/create (Caused by ResponseError('too many 500 error responses'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 63, in <module>
+    model_evaluation.initiate_model_evaluation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\model_evaluation.py", line 64, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\sklearn\__init__.py", line 466, in log_model
+    return Model.log(
+           ~~~~~~~~~^
+        artifact_path=artifact_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<19 lines>...
+        skops_trusted_types=skops_trusted_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\models\model.py", line 1357, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+        f"models:/{model.model_id}",
+    ...<2 lines>...
+        local_model_path=local_path,
+    )
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 229, in _register_model
+    create_version_response = client._create_model_version(
+        name=name,
+    ...<5 lines>...
+        model_id=model_id,
+    )
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\tracking\client.py", line 4440, in _create_model_version
+    return self._get_registry_client().create_model_version(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        name=name,
+        ^^^^^^^^^^
+    ...<7 lines>...
+        model_id=model_id,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\tracking\_model_registry\client.py", line 268, in create_model_version
+    mv = self.store.create_model_version(
+        name,
+    ...<6 lines>...
+        model_id=model_id,
+    )
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 301, in create_model_version
+    response_proto = self._call_endpoint(CreateModelVersion, req_body)
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+        self.get_host_creds(), endpoint, method, json_body, response_proto, extra_headers
+    )
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\utils\rest_utils.py", line 594, in call_endpoint
+    response = http_request(**call_kwargs)
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\utils\rest_utils.py", line 259, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to https://dagshub.com/mohana.roy/ny_first_datascience_project.mlflow/api/2.0/mlflow/model-versions/create failed with exception HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /mohana.roy/ny_first_datascience_project.mlflow/api/2.0/mlflow/model-versions/create (Caused by ResponseError('too many 500 error responses'))
+[2026-02-20 15:36:23,268:INFO:datasciencelogger:Welcome to our custom logging data science]
+[2026-02-20 15:36:23,269:INFO:datasciencelogger:>>>>> stage Data Ingestion Stage started <<<<<]
+[2026-02-20 15:36:23,296:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 15:36:23,318:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 15:36:23,323:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 15:36:23,324:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 15:36:23,325:INFO:datasciencelogger:created directory at: artifacts/data_ingestion]
+[2026-02-20 15:36:23,326:INFO:datasciencelogger:File already exists]
+[2026-02-20 15:36:23,334:INFO:datasciencelogger:>>>>> stage {STAGE_NAME} completed <<<<< 
+
+x===========x]
+[2026-02-20 15:36:23,335:INFO:datasciencelogger:>>>>> stage Data Validation Stage started <<<<<]
+[2026-02-20 15:36:23,339:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 15:36:23,340:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 15:36:23,342:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 15:36:23,343:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 15:36:23,344:INFO:datasciencelogger:created directory at: artifacts\data_validation]
+[2026-02-20 15:36:23,402:INFO:datasciencelogger:>>>>> stage Data Validation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 15:36:23,402:INFO:datasciencelogger:>>>>> stage Data Transformation Stage started <<<<<]
+[2026-02-20 15:36:23,405:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 15:36:23,407:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 15:36:23,409:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 15:36:23,411:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 15:36:23,411:INFO:datasciencelogger:created directory at: artifacts/data_transformation]
+[2026-02-20 15:36:23,467:INFO:datasciencelogger:Splited data into training and test sets]
+[2026-02-20 15:36:23,470:INFO:datasciencelogger:(1199, 12)]
+[2026-02-20 15:36:23,471:INFO:datasciencelogger:(400, 12)]
+[2026-02-20 15:36:23,472:INFO:datasciencelogger:>>>>> stage Data Transformation Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 15:36:23,473:INFO:datasciencelogger:>>>>> stage Model Training Stage started <<<<<]
+[2026-02-20 15:36:23,483:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 15:36:23,488:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 15:36:23,494:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 15:36:23,497:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 15:36:23,500:INFO:datasciencelogger:created directory at: artifacts/model_trainer]
+[2026-02-20 15:36:23,596:INFO:datasciencelogger:>>>>> stage Model Training Stage completed <<<<< 
+
+x===========x]
+[2026-02-20 15:36:23,596:INFO:datasciencelogger:>>>>> stage Model Evaluation Stage started <<<<<]
+[2026-02-20 15:36:23,600:INFO:datasciencelogger:yaml file: config\config.yaml loaded successfully]
+[2026-02-20 15:36:23,602:INFO:datasciencelogger:yaml file: params.yaml loaded successfully]
+[2026-02-20 15:36:23,605:INFO:datasciencelogger:yaml file: schema.yaml loaded successfully]
+[2026-02-20 15:36:23,606:INFO:datasciencelogger:created directory at: artifacts]
+[2026-02-20 15:36:23,607:INFO:datasciencelogger:created directory at: artifacts/model_evaluation]
+[2026-02-20 15:36:25,891:INFO:datasciencelogger:json file saved at: artifacts\model_evaluation\metrics.json]
+[2026-02-20 15:40:41,773:ERROR:datasciencelogger:API request to https://dagshub.com/mohana.roy/ny_first_datascience_project.mlflow/api/2.0/mlflow/model-versions/create failed with exception HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /mohana.roy/ny_first_datascience_project.mlflow/api/2.0/mlflow/model-versions/create (Caused by ResponseError('too many 500 error responses'))]
+urllib3.exceptions.ResponseError: too many 500 error responses
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\urllib3\connectionpool.py", line 942, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\urllib3\connectionpool.py", line 942, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\urllib3\connectionpool.py", line 942, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  [Previous line repeated 4 more times]
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\urllib3\connectionpool.py", line 932, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=self)
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /mohana.roy/ny_first_datascience_project.mlflow/api/2.0/mlflow/model-versions/create (Caused by ResponseError('too many 500 error responses'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\utils\rest_utils.py", line 236, in http_request
+    return _get_http_response_with_retries(
+        method,
+    ...<10 lines>...
+        **kwargs,
+    )
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\utils\request_utils.py", line 237, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\requests\adapters.py", line 668, in send
+    raise RetryError(e, request=request)
+requests.exceptions.RetryError: HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /mohana.roy/ny_first_datascience_project.mlflow/api/2.0/mlflow/model-versions/create (Caused by ResponseError('too many 500 error responses'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\main.py", line 63, in <module>
+    model_evaluation.initiate_model_evaluation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\mohan\MLFLOWStarter\DATASCIENCE\src\datascience\components\model_evaluation.py", line 64, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\sklearn\__init__.py", line 466, in log_model
+    return Model.log(
+           ~~~~~~~~~^
+        artifact_path=artifact_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<19 lines>...
+        skops_trusted_types=skops_trusted_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\models\model.py", line 1357, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+        f"models:/{model.model_id}",
+    ...<2 lines>...
+        local_model_path=local_path,
+    )
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 229, in _register_model
+    create_version_response = client._create_model_version(
+        name=name,
+    ...<5 lines>...
+        model_id=model_id,
+    )
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\tracking\client.py", line 4440, in _create_model_version
+    return self._get_registry_client().create_model_version(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        name=name,
+        ^^^^^^^^^^
+    ...<7 lines>...
+        model_id=model_id,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\tracking\_model_registry\client.py", line 268, in create_model_version
+    mv = self.store.create_model_version(
+        name,
+    ...<6 lines>...
+        model_id=model_id,
+    )
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 301, in create_model_version
+    response_proto = self._call_endpoint(CreateModelVersion, req_body)
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+        self.get_host_creds(), endpoint, method, json_body, response_proto, extra_headers
+    )
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\utils\rest_utils.py", line 594, in call_endpoint
+    response = http_request(**call_kwargs)
+  File "C:\Users\mohan\miniconda3\Lib\site-packages\mlflow\utils\rest_utils.py", line 259, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to https://dagshub.com/mohana.roy/ny_first_datascience_project.mlflow/api/2.0/mlflow/model-versions/create failed with exception HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /mohana.roy/ny_first_datascience_project.mlflow/api/2.0/mlflow/model-versions/create (Caused by ResponseError('too many 500 error responses'))

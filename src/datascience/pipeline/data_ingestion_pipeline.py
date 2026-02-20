@@ -1,4 +1,3 @@
-
 from src.datascience.config.configuration import ConfigurationManager
 from src.datascience.components.data_ingestion import DataIngestion
 from src.datascience import logger
